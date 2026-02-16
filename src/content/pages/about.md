@@ -1,8 +1,9 @@
+
 ---
 title: About
 seo:
   title: About Me
-  description: Learn about Samuel Junca—Systems Engineering student at Universidad El Bosque (6th semester) and founder of a beverage distribution business focused on service, efficiency, and design-driven operations.
+  description: About Samuel Junca—Systems Engineering student (6th semester) at Universidad El Bosque and founder of a beverage distribution business focused on service and efficiency.
 ---
 
 ## About — Samuel Junca
@@ -31,4 +32,3 @@ I believe in **collaboration** and **clear communication**. Whether coordinating
 
 ## Get in Touch
 If you’d like to connect about **operations**, **product design**, or **potential collaborations**, feel free to reach out. I’m always open to conversations that lead to better systems and better service.
-
