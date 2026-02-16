@@ -1,66 +1,87 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
-seo:
-  image:
-    src: '../../assets/images/project-1.jpg'
-    alt: Project preview
+title: 'Junca Distribuciones: Beverage Supply & Efficient Operations'
+description: Junca Distribuciones is a local beverage distribution business with a multi-brand portfolio (Postobón, Bavaria, Coca-Cola) and spirits such as Aguardiente Antioqueño and Néctar Amarillo. Focused on service, operational efficiency, and long-term relationships.
+publishDate: 'Feb 15 2026'
+# No image used in this case study (no seo.image block)
 ---
 
-![Project preview](../../assets/images/project-1.jpg)
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
-
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+**Project Overview**  
+**Junca Distribuciones** is my beverage distribution business with **one year of continuous operation** and solid results. I supply local shops and events with a **multi-brand portfolio** that includes **Postobón, Bavaria, and Coca-Cola**, as well as spirits like **Aguardiente Antioqueño** and **Néctar Amarillo**, among others.  
+My goal is to combine **reliable service**, **efficient processes**, and **clear operational design** to deliver availability, consistent delivery times, and a simple, dependable customer experience.
 
 ## Objectives
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+1. **Guarantee availability** and coverage with a multi-brand portfolio (soft drinks, beer, and spirits).  
+2. **Standardize processes** for ordering, inventory, rotation, and receivables to reduce friction.  
+3. **Optimize routes and delivery windows** to improve costs and service levels.  
+4. **Build long-term relationships** with B2B clients and events, prioritizing proximity and quick response.
 
-## Features
+## Portfolio
 
-1. **EcoScore and Challenges:**
+- **Non-alcoholic beverages:** Postobón (assortment), Coca-Cola (assortment).  
+- **Beer:** Bavaria (varieties and formats).  
+- **Spirits:** Aguardiente Antioqueño, Néctar Amarillo, and complementary references.  
+- **Other:** Related products based on seasonal demand and active promotions.
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+## Channels & Customers
 
-2. **Personalized Eco-Goals:**
+- **Neighborhood stores and mini-markets**  
+- **HORECA:** restaurants, bars, cafés  
+- **Events and special orders**  
+- **Direct orders via WhatsApp** and referrals
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+## Operations & Services (Features)
 
-3. **Green Rewards Marketplace:**
+1. **Order intake & customer service**  
+   - Orders via **WhatsApp Business** with catalog and updated price lists.  
+   - Fast confirmation, clear delivery promises, and order tracking.
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+2. **Inventory & rotation (FEFO)**  
+   - Control by SKU and lot to ensure **freshness** and **availability**.  
+   - Scheduled replenishment and low-stock alerts. *(FEFO = First-Expire, First-Out)*
 
-4. **Community Hub:**
+3. **Routing & logistics**  
+   - Zone-based planning with **delivery time windows**.  
+   - Order consolidation to optimize time and cost.
 
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
+4. **Billing, payments & receivables**  
+   - Invoicing, receipts, and defined payment options.  
+   - Credit/cash policies and receivables tracking.
 
-5. **EcoEducator AI Assistant:**
+5. **Service & after-sales**  
+   - Returns handling for damaged/defective items under policy.  
+   - Proactive communication about availability, substitutes, and promotions.
 
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
+> **Compliance:** Age verification for the sale of alcoholic beverages and adherence to applicable local regulations.
 
-## Technology Stack
+## Tools & Systems (Stack)
 
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
+- **Order & customer management:** WhatsApp Business + catalog / simple forms  
+- **Inventory & purchasing:** Spreadsheets (Sheets/Excel) with rotation and replenishment control  
+- **Routing & delivery:** Map-based zone planning  
+- **Admin:** Income/expense tracking, invoicing and receipts; basic reconciliation  
+- **Communication & design:** Price lists and promo assets (e.g., Canva)  
+- **(Optional / in progress)** Light automations: order form, QR codes for catalog, barcode-based stock in/out
 
-## Outcome
+## Results (First Year)
 
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
+- **Stable operation** and organic growth of the customer base  
+- **Improved availability** of key SKUs during demand peaks  
+- **Standardized process** from order → picking → delivery → invoicing  
+- **Stronger commercial relationships** with recurring clients and better replenishment practices
 
-## Client Testimonial
+*(If needed, we can add real metrics here, e.g., on-time delivery rate, average dispatch time, inventory turnover, or active client count.)*
 
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
+## Next Steps
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+- **Barcode-based inventory** with SKU/lot tracking  
+- **Mini‑CRM** for purchase history, client-specific pricing, and replenishment reminders  
+- **KPI dashboard:** on-time delivery, average ticket, rotation, receivables  
+- **Route optimization** by density and delivery windows  
+- **Digital catalog** with bundles and **seasonal promotions**  
+- **Process documentation** for scale (onboarding helpers/drivers)
+
+## Client Testimonial (Optional)
+
+> “Reliable service and clear communication. Replenishment arrives within the agreed time window, with consistent inventory handling.”  
+> — *(Replace with a real client testimonial)*
