@@ -1,43 +1,34 @@
+
 ---
 title: About
 seo:
   title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
-  image:
-    src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
+  description: Learn about Samuel Junca—Systems Engineering student at Universidad El Bosque (6th semester) and founder of a beverage distribution business focused on service, efficiency, and design-driven operations. No images used on this page.
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
+## About — Samuel Junca
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+I’m **Samuel Junca**, a **Systems Engineering** student at **Universidad El Bosque** (6th semester) and the founder of a **beverage distribution business**. I work at the intersection of **collaboration**, **product design**, and **efficient operations**—turning ideas into solutions that are **clear, fast, and useful** for real customers.
 
-## Ethan Donovan - Web Developer based in Estonia
+### What I Do
+- Operate a **multi-brand beverage distribution** line (soft drinks, beer, and spirits), focusing on **availability**, **reliable delivery**, and **service**.
+- Standardize processes across **ordering → inventory → routing → invoicing** to reduce friction and improve outcomes.
+- Build **long-term relationships** with local businesses and events through responsiveness and clear communication.
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+### How I Work
+- **Informed intuition & just‑enough research:** Move forward with evidence and judgment—no unnecessary complexity.  
+- **Functional aesthetics:** Use design as a lever to make processes and interfaces simpler and more intuitive.  
+- **Product‑led growth:** Let the value be obvious from the very first experience.
 
-## Skills and Expertise
+### What I Value
+- **Well-crafted software**, **thoughtful visual design**, and products that **solve real problems**.
+- Clarity, reliability, and the discipline to **iterate** on processes and experiences.
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+### Continuous Learning
+While running my distribution business, I continue developing my technical foundation in **Systems Engineering**—applying what I learn to streamline operations, structure data, and improve decision‑making.
 
-## Innovation and Problem-Solving
-
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
-
-## Global Perspective, Local Impact
-
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
-
-## Continuous Learning
-
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
-
-## Collaboration and Communication
-
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+### Collaboration & Communication
+I believe in **collaboration** and **clear communication**. Whether coordinating with suppliers, clients, or partners, I prioritize transparency, realistic commitments, and on‑time delivery.
 
 ## Get in Touch
-
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
-
-_Let's build something amazing together!_
+If you’d like to connect about **operations**, **product design**, or **potential collaborations**, feel free to reach out. I’m always open to conversations that lead to better systems and better service.
