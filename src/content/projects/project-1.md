@@ -80,8 +80,3 @@ My goal is to combine **reliable service**, **efficient processes**, and **clear
 - **Route optimization** by density and delivery windows  
 - **Digital catalog** with bundles and **seasonal promotions**  
 - **Process documentation** for scale (onboarding helpers/drivers)
-
-## Client Testimonial (Optional)
-
-> “Reliable service and clear communication. Replenishment arrives within the agreed time window, with consistent inventory handling.”  
-> — *(Replace with a real client testimonial)*
