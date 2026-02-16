@@ -5,8 +5,8 @@ const siteConfig: SiteConfig = {
 
   // 👤 Avatar (se usa en distintas partes del tema)
   avatar: {
-    src: '/images/Avatar.jpeg',
-    alt: 'Samuel Junca',
+    src: '',
+    alt: '',
   },
 
   title: 'Samuel',
@@ -16,8 +16,8 @@ const siteConfig: SiteConfig = {
 
   // 🖼️ Imagen OG/SEO por defecto (DEBE ser imagen, no video)
   image: {
-    src: '/images/Avatar.jpeg',
-    alt: 'Samuel Junca',
+    src: '',
+    alt: '',
   },
 
   // 🧭 Menú — quitamos Projects / Writing
