@@ -1,10 +1,9 @@
-// src/data/site-config.ts
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
   website: 'https://example.com',
 
-  // 👤 Avatar mostrado en el sitio
+  // 👤 Avatar (se usa en distintas partes del tema)
   avatar: {
     src: '/images/Avatar.jpeg',
     alt: 'Samuel Junca',
@@ -15,13 +14,13 @@ const siteConfig: SiteConfig = {
   description:
     'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
 
-  // 🖼️ Imagen OG por defecto (SEO). Debe ser imagen, no video.
+  // 🖼️ Imagen OG/SEO por defecto (DEBE ser imagen, no video)
   image: {
     src: '/images/Avatar.jpeg',
     alt: 'Samuel Junca',
   },
 
-  // 🧭 Menú (quitamos Projects y Writing/Blog)
+  // 🧭 Menú — quitamos Projects / Writing
   headerNavLinks: [
     { text: 'Home', href: '/' },
     { text: 'About', href: '/about' },
@@ -45,7 +44,7 @@ const siteConfig: SiteConfig = {
     { text: 'X/Twitter', href: 'https://twitter.com/' },
   ],
 
-  // 🏠 Héroe de la Home: tu bio + media
+  // 🏠 Héroe del Home: tu bio + el video de YouTube embebido
   hero: {
     title: "Hi, I'm Samuel",
     text: `I'm **Samuel Junca**, a Systems Engineering student at El Bosque University (6th semester) and the founder of a beverage distribution business. I'm interested in collaboration, product design, and efficient operations to turn ideas into solutions that are clear, fast, and useful.
@@ -56,27 +55,24 @@ const siteConfig: SiteConfig = {
 - **Product‑led growth:** make the value obvious from the very first use.
 
 **What I Value**
-Well‑crafted software, thoughtful visual design, and products that solve real problems.`,
+Well‑crafted software, thoughtful visual design, and products that solve real problems.
 
-    // 🎬 Video en el héroe (se mostrará si el componente lo soporta; ver nota abajo)
-    video: {
-      src: '/video/45185.mp4',        // ajusta si tu carpeta es /videos/
-      poster: '/images/Avatar.jpeg',  // portada mientras carga
-      alt: 'Intro video - Samuel Junca',
-      // Si quieres forzar comportamiento desde config (opcional):
-      // controls: true,
-      // autoplay: true,
-      // loop: true,
-      // muted: true,
-      // playsinline: true,
-    },
-
-    // 🖼️ Fallback a imagen si prefieres (y para layouts que aún no soportan video)
+<!-- 🎬 YouTube Shorts embebido (vertical 9:16) -->
+<div style="aspect-ratio:9/16; width:100%; max-width:420px; margin:1rem 0; border-radius:1rem; overflow:hidden; box-shadow:0 10px 25px rgba(0,0,0,.15);">
+  <iframe
+    src="https://www.youtube.com/embed/dg-o0b9r8lU?rel=0&modestbranding=1&controls=1"
+    title="YouTube video player"
+    loading="lazy"
+    style="width:100%; height:100%; border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>`,
+    // Imagen de respaldo por si el HTML no llega a renderizar en algún contexto
     image: {
       src: '/images/Avatar.jpeg',
       alt: 'Samuel Junca',
     },
-
     actions: [{ text: 'Get in Touch', href: '/contact' }],
   },
 
