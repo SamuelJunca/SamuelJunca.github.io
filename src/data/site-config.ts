@@ -4,7 +4,7 @@ const siteConfig: SiteConfig = {
   website: 'https://example.com',
   avatar: {
     // Ruta pública: no requiere import ni declaraciones de tipos
-    src: '/images/avatar.jpg',
+    src: '/images/avatar.jpeg',
     alt: 'Samuel Junca',
   },
   title: 'Samuel',
@@ -13,7 +13,7 @@ const siteConfig: SiteConfig = {
     'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
   image: {
     // Si existe en /public, esta ruta es correcta
-    src: '/images/avatar.jpg',
+    src: '/images/avatar.jpeg',
     alt: 'Dante - Astro.js and Tailwind CSS theme',
   },
   headerNavLinks: [
@@ -37,12 +37,17 @@ const siteConfig: SiteConfig = {
     { text: 'X/Twitter', href: 'https://twitter.com/' },
   ],
   hero: {
-    title: 'Hi There & Welcome to My Corner of the Web!',
-    text: `I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.
-My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.
-I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.
+    
+text: `I'm **Samuel Junca**, a Systems Engineering student at El Bosque University (6th semester) and the founder of a beverage distribution business. I'm interested in collaboration, product design, and efficient operations to turn ideas into solutions that are clear, fast, and useful.
 
-Feel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).`,
+**How I Work**
+- **Informed intuition & just‑enough research:** enough evidence to move forward with sound judgment.
+- **Functional aesthetics:** design as a lever to improve the experience.
+- **Product‑led growth:** make the value obvious from the very first use.
+
+**What I Value**
+Well‑crafted software, thoughtful visual design, and products that solve real problems.`,
+
     image: {
       // Ruta pública de la imagen del hero
       src: '/images/hero.jpg',
