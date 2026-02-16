@@ -1,10 +1,11 @@
+// src/data/site-config.ts
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
   website: 'https://example.com',
 
+  // 👤 Avatar mostrado en el sitio
   avatar: {
-    // ✅ URL pública desde /public
     src: '/images/Avatar.jpeg',
     alt: 'Samuel Junca',
   },
@@ -14,13 +15,13 @@ const siteConfig: SiteConfig = {
   description:
     'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
 
-  // Imagen por defecto (OG). Usa la misma para evitar 404:
+  // 🖼️ Imagen OG por defecto (SEO). Debe ser imagen, no video.
   image: {
     src: '/images/Avatar.jpeg',
     alt: 'Samuel Junca',
   },
 
-  // ✅ Menú: quitamos Projects y Writing/Blog
+  // 🧭 Menú (quitamos Projects y Writing/Blog)
   headerNavLinks: [
     { text: 'Home', href: '/' },
     { text: 'About', href: '/about' },
@@ -44,6 +45,7 @@ const siteConfig: SiteConfig = {
     { text: 'X/Twitter', href: 'https://twitter.com/' },
   ],
 
+  // 🏠 Héroe de la Home: tu bio + media
   hero: {
     title: "Hi, I'm Samuel",
     text: `I'm **Samuel Junca**, a Systems Engineering student at El Bosque University (6th semester) and the founder of a beverage distribution business. I'm interested in collaboration, product design, and efficient operations to turn ideas into solutions that are clear, fast, and useful.
@@ -55,11 +57,26 @@ const siteConfig: SiteConfig = {
 
 **What I Value**
 Well‑crafted software, thoughtful visual design, and products that solve real problems.`,
+
+    // 🎬 Video en el héroe (se mostrará si el componente lo soporta; ver nota abajo)
+    video: {
+      src: '/video/45185.mp4',        // ajusta si tu carpeta es /videos/
+      poster: '/images/Avatar.jpeg',  // portada mientras carga
+      alt: 'Intro video - Samuel Junca',
+      // Si quieres forzar comportamiento desde config (opcional):
+      // controls: true,
+      // autoplay: true,
+      // loop: true,
+      // muted: true,
+      // playsinline: true,
+    },
+
+    // 🖼️ Fallback a imagen si prefieres (y para layouts que aún no soportan video)
     image: {
-      // ✅ Muestra tu avatar en el héroe de Home
       src: '/images/Avatar.jpeg',
       alt: 'Samuel Junca',
     },
+
     actions: [{ text: 'Get in Touch', href: '/contact' }],
   },
 
